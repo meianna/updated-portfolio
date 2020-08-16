@@ -6256,6 +6256,7 @@ a.close.disabled {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
+  border: 1px solid #c4d0de;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -10591,6 +10592,7 @@ a.text-dark:focus {
   display: block;
   max-width: 25rem;
   border-radius: 0.5rem;
+  border: 1px solid #c4d0de;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -10690,6 +10692,14 @@ form .row:first-child .floating-label-form-group {
 }
 
 #about {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231CBB9C' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231CBB9C' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
