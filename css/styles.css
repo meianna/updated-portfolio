@@ -10688,3 +10688,8 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+#about {
+  padding-left: 100px;
+  padding-right: 100px;
+}
