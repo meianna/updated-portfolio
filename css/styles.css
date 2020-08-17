@@ -10423,11 +10423,7 @@ a.text-dark:focus {
 .page-section {
   padding: 6rem 0;
 }
-.portfolio-section {
-  /* padding-top: 6rem;
-  padding-bottom: 20px; */
-  padding: 6rem 0;
-}
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -10707,4 +10703,10 @@ form .row:first-child .floating-label-form-group {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231CBB9C' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.portfolio-section {
+  padding-top: 6rem;
+  padding-bottom: 70px;
+  /* padding: 6rem 0; */
 }
