@@ -10423,6 +10423,10 @@ a.text-dark:focus {
 .page-section {
   padding: 6rem 0;
 }
+.portfolio-section {
+  padding-top: 6rem;
+  padding-bottom: 0;
+}
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
