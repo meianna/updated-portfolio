@@ -10706,7 +10706,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio-section {
-  padding-top: 6rem;
-  padding-bottom: 70px;
-  /* padding: 6rem 0; */
+  /* padding-top: 6rem;
+  padding-bottom: 70px; */
+  padding: 6rem 0;
 }
